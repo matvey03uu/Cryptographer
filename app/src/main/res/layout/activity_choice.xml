@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceActivity">
+
+    <Button
+        android:id="@+id/Caesar"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:onClick="onClick"
+        android:text="Шифр Цезаря"
+        android:textSize="40sp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+    <Button
+        android:id="@+id/Morse"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:onClick="onClick2"
+        android:text="Азбука Морзе"
+        android:textSize="40sp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+    <Button
+        android:id="@+id/Mirror"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:onClick="onClick3"
+        android:text="Зеркало"
+        android:textSize="40sp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+    <Button
+        android:id="@+id/Vision"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:onClick="onClick4"
+        android:text="Шифр Виженера"
+        android:textSize="40sp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+    <Button
+        android:id="@+id/AES"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:onClick="onClick5"
+        android:text="AES"
+        android:textSize="40sp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:onClick="onBack"
+        android:text="Назад"
+        android:textSize="30sp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
